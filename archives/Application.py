@@ -598,7 +598,6 @@ class MainWindow(QWidget, DataBase):
         # Main Window Configurations #
         ##############################
         self.setWindowTitle('Oficina do Corpo em Movimento')
-        self.setWindowIcon(QIcon('../images/firstPageImages/Icon.png'))
         self.setGeometry(250, 90, 1080, 720)
         self.setMaximumSize(1080, 720)
         self.setMinimumSize(600, 400)
